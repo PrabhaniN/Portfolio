@@ -18,13 +18,13 @@ header {
 }
 
 .cover-left {
-  text-align: center;
+  text-align: left;
 }
 
 .name, .h1 {
   /* text-align: center; */
-  padding: 50px 0 50px 0;
-  margin: 100px 0 100px 0;
+  /* padding: 50px 0 50px 0; */
+  /* margin: 100px 0 100px 0; */
 }
 
 @media screen and (min-width: 768px) {
@@ -35,6 +35,15 @@ header {
   .nav ul li {
     font-size: 2vw;
   }
+
+  .name {
+    padding: 50px 0 50px 50px;
+    margin: 100px 0 100px 100px;
+  }
+
+  .title {
+    font-size: 4vw;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -44,6 +53,15 @@ header {
 
   .nav ul li {
     font-size: 5vw;
+  }
+
+  .name {
+    padding: 25px 0 25px 10px;
+    margin: 50px 0 50px 20px;
+  }
+
+  .title {
+    font-size: 8vw;
   }
 }
 
@@ -57,18 +75,18 @@ header {
 
 .cover-right {
   text-align: left;
-  display: flex;
-  position: fixed;
-  z-index: 10;
+  /* display: flex; */
+  /* position: fixed; */
+  /* z-index: 10; */
 }
 
 .nav {
   padding: 50px 0 50px 0;
   margin: 50px 0 150px 0;
-  display: block;
-  float: none;
-  position: static;
-  z-index: auto;
+  /* display: block; */
+  /* float: none; */
+  /* position: static; */
+  /* z-index: auto; */
 }
 
 .nav ul {
@@ -76,9 +94,27 @@ header {
   margin: 0;
 }
 
-.nav ul li {
+.nav ul li, a, a:visited {
   color: white;
   list-style-type: none;
   line-height: 2;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  padding: 0;
+}
+
+.body {
+  padding: 50px 10px 50px 10px;
+}
+
+.about {
+  text-align: center;
+  padding: 0;
+}
+
+.title h1 {
+  color: white;
   font-family: 'Raleway', sans-serif;
 }
