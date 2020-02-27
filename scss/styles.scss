@@ -1,0 +1,337 @@
+html {
+  line-height: 1.6;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  /* background-image: url("assets/images/sample.jpeg"); */
+  /* scroll-behavior: smooth; */
+}
+
+body, .cover, .cover-left, .row {
+  margin: 0 !important; 
+  padding: 0 !important;
+}
+
+.page-border {
+  background: url('../assets/images/Slanted-Gradient.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background: linear-gradient(180deg, #348773 0%, rgba(11, 9, 104, 0) 74.48%), #000232; */
+}
+
+.toggle-collapse {
+  float: right;
+  margin-right: 40px;
+  margin-top: 10px;
+  content: "";
+  outline: inherit;
+  border: 0;
+  background: transparent;
+  z-index: 9;
+}
+
+.toggle-icon, .toggle-icon::before, .toggle-icon::after {
+  content: "";
+  width: 28px;
+  height: 3px;
+  position: fixed;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 2em;
+  cursor: pointer;
+  transition: 0.4s ease;
+  margin-top: 0.8em;
+  z-index: 6;
+}
+
+.toggle-icon::before {
+  position: absolute;
+  left: 0;
+  margin-top: -0.6em;
+}
+
+.toggle-icon::after {
+  position: absolute;
+  left: 0;
+  margin-top: 0.6em;
+}
+
+.show .toggle-icon {
+  background-color: transparent;
+  border: none;
+  // right: 21%;
+}
+
+.show .toggle-icon::before {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  margin-top: 0;
+}
+
+.show .toggle-icon::after {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin-top: 0;
+}
+
+header {
+  height: 1000px;
+}
+
+.sideNav {
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: transparent;
+  position: fixed;
+  right: -30%;
+  height: 100%;
+  overflow: auto;
+  text-align: center;
+  padding-top: 180px;
+  border-right: white !important;
+  background: rgba(3, 2, 42, 0.35);
+  transition-property: 0.8s ease;
+  z-index: 1;
+}
+
+.sideNav a {
+  display: block;
+  color: white;
+  padding: 16px;
+  margin-bottom: 100px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9vw;
+  line-height: 21px;
+  z-index: 3;
+}
+ 
+.sideNav a.active {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(238, 238, 238, 0.3);
+}
+
+.sideNav a list_item_home:hover:not(.active) {
+  font-size: 1.042vw !important;
+  background-color: rgba(238, 238, 238, 0.3) !important;
+}
+
+.sideNav a:hover:not(.active) {
+  font-size: 1vw;
+  color: white;
+  text-decoration: none;
+}
+
+#logo {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  left: 50px;
+  top: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.198vw;
+  line-height: 27px;
+  color: white;
+ }
+ 
+#logo a { 
+  color: inherit; 
+  text-decoration: none;
+}
+
+.name .prabhani, .name .portfolio-heading, .name .about-heading, .name .contact-heading {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  margin: 0 !important;
+  position: absolute;
+  left: 200px;
+  font-style: normal;
+  font-size: 5.21vw;
+  line-height: 113px;
+}
+
+.name .prabhani {
+  top: 300px;
+}
+
+.name .freelance, .name .portfolio-more, .name .about-more, .name .contact-more{
+  margin: 0;
+  position: absolute;
+  left: 200px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5625vw;
+  line-height: 32px;
+  color: white;
+}
+
+.name .freelance {
+  top: 680px;
+}
+
+.portfolio-intro, .about-intro, .contact-intro {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.portfolio-heading, .about-heading, .contact-heading {
+  top: -150px;
+}
+
+.portfolio-more, .about-more, .contact-more {
+  margin: 0;
+  left: 200px;
+  top: 150px;
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    height: 700px;
+  }
+
+  .toggle-icon, .toggle-icon::before, .toggle-icon::after {
+    display: none;
+  }
+
+  .show .toggle-icon, .show .toggle-icon::before, .show .toggle-icon::after {
+    display: none;
+  }
+
+  .sideNav {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    margin-top: 0;
+    right: 0;
+    padding-top: 10px;
+    z-index: 5;
+    background: rgba(3, 2, 42, 0.8);
+  }
+
+  .sideNav a {
+    padding: 16px;
+    margin-bottom: 10px;
+    font-size: 2vw;
+    display: inline-block;
+    margin-right: -4px;  /* inline-block gap fix */
+    -webkit-transition: background 0.3s linear;
+    -moz-transition: background 0.3s linear;
+    -ms-transition: background 0.3s linear;
+    -o-transition: background 0.3s linear;
+    transition: background 0.3s linear;
+    z-index: 9;
+  }
+
+  .sideNav a:hover:not(.active) {
+    font-size: 2.5vw;
+    color: white;
+    text-decoration: none;
+  }
+
+  #logo {
+    font-size: 3vw;
+    top: 80px;
+    left: 30px;
+  }
+
+  .name .prabhani, .name .portfolio-heading, .name .about-heading, .name .contact-heading {
+    font-size: 10vw;
+    left: 120px;
+  }
+
+  .name .prabhani {
+    top: 200px;
+  }
+
+  .name .freelance, .name .portfolio-more, .name .about-more, .name .contact-more {
+    font-size: 3.3vw;
+    left: 120px;
+  }
+
+  .name .freelance {
+    top: 500px;
+  }
+
+  .name .portfolio-more, .name .about-more, .name .contact-more {
+    top: 100px;
+  }
+
+}
+
+@media screen and (max-width: 539px){
+  header {
+    height: 700px;
+  }
+
+  .toggle-icon, .toggle-icon::before, .toggle-icon::after {
+    display: block;
+    opacity: 0.7;
+    width: 20px;
+    height: 2px;
+  }
+
+  .show .toggle-icon, .show .toggle-icon::before, .show .toggle-icon::after {
+    display: block;
+  }
+
+  .sideNav.responsive {
+    position: relative; 
+    // top: 73px;
+  }
+
+  .sideNav {
+    position: absolute;
+    top: -30%;
+  }
+
+  .sideNav.responsive .icon {
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+
+  .sideNav a, .sideNav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 8px;
+    font-size: 2.5vw;
+    font-weight: 400;
+  }
+
+  #logo {
+    font-size: 3vw;
+    top: 50px;
+    left: 30px;
+  }
+
+  .name .prabhani, .name .portfolio-heading, .name .about-heading, .name .contact-heading {
+    font-size: 10vw;
+    left: 80px;
+  }
+
+  .name .prabhani {
+    top: 180px;
+  }
+
+  .name .freelance, .name .portfolio-more, .name .about-more, .name .contact-more {
+    font-size: 3.3vw;
+    left: 80px;
+  }
+
+  .name .freelance {
+    top: 500px;
+  }
+}

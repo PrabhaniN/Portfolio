@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
 
 <head>
@@ -12,16 +12,24 @@
   <meta name="description" content="Prabhani Nanayakkara">
 
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="scss/styles.scss">
+  <!-- Animations Stylesheet -->
+  <link rel="stylesheet" href="scss/animations.scss">
   <!-- Hover CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css" />
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 
   <!-- Bootstrap4 -->
+
   <!-- CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- FrontJs CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css"
+    integrity="sha256-+dIh4jG2jQTHZwW81yUo8h6tzXWcNumyNL5XPZbwp1E=" crossorigin="anonymous" />
+
   <!-- JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -35,62 +43,152 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
 
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+  <!-- FullPage.js  -->
+  <link rel="stylesheet" type="text/css" href="fullpage.css" />
+
+  <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "easeInOutCubic". -->
+  <script src="vendors/easings.min.js"></script>
+
+
+  <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+  <script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+
+  <script type="text/javascript" src="fullpage.js"></script>
+
+  <!-- JS Main File -->
+  <script type="text/javascript" src="js/main.js"></script>
+
   <!-- TODO add favicon.ico -->
 
 </head>
 
 <body>
 
+  <!-- page border -->
   <div class="page-border">
-    <div class="bg">
+
+
+    <!-- <button class="toggle-collapse" id="toggle-btn" onclick="menuAnimation(this)"> -->
+    <div onclick="menuAnimation(this)" class="toggle-collapse">
+
+      <span class="toggle-icon"></span>
+
+    </div>
+    <!-- </button> -->
+
+    <!-- NAVIGATION BAR -->
+    <div class="sideNav" id="side_nav">
+      <a href="#home" class="list_item_home active">HOME</a>
+      <a href="#portfolio" class="list_item_portfolio">PORTFOLIO</a>
+      <a href="#about-me" class="list_item_about_me">ABOUT ME</a>
+      <a href="#contact" class="list_item_contact">CONTACT</a>
+    </div>
+    <!-- NAVIGATION BAR -->
+
+    <!-- prabhani.me -->
+    <div id="logo">
+      <a href="#home" title="Logo">prabhani.me</a>
+    </div>
+    <!-- prabhani.me -->
+
+    <!-- Background -->
+    <div class="bg" id="fullpage">
 
       <!-- Header -->
-      <header id="home">
-        <div class="container-fluid col-12 col-sm-12 col-md-12 col-lg-12 cover">
-          <div class="row">
+      <div class="section">
+        <header id="home">
 
-            <!-- Cover-Left -->
-            <div class="col-md-8 col-lg-9 col-sm-12 col-12 cover-left">
-              <div class="name h1">
-                <!-- <p>Hi! <br>I'm</p> -->
-                <h1>Prabhani <br>Nanayakkara</h1>
-              </div>
-            </div>
+          <!-- <hr class="solid divider"> -->
 
-            <!-- Cover-Right -->
-            <div class="col-md-4 col-lg-3 col-sm-12 col-12 cover-right">
-              <div class="nav">
-                <ul>
-                  <li>Home</li>
-                  <li>
-                    <a href="#about">About me</a>
-                  </li>
-                  <li>Things I do</li>
-                  <li>Portfolio</li>
-                  <li>Resume</li>
-                  <li>Contact</li>
-                </ul>
+          <!-- COVER -->
+          <div class="container-fluid col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 cover">
+
+            <!-- Cover Row -->
+            <div class="row">
+
+              <!-- Cover-Content -->
+              <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12 col-12 cover-left">
+
+                <!-- Intro-Name -->
+                <div class="name h1">
+                  <!-- <p class="hello">Hello,</p> -->
+                  <p class="prabhani">Prabhani <br>Nanayakkara</p>
+
+                  <p class="freelance">Freelance UX/UI Designer</p>
+                </div>
+                <!-- Intro-Name -->
+
               </div>
+              <!-- Cover-Content -->
+
             </div>
+            <!-- Cover Row -->
 
           </div>
+          <!-- COVER -->
 
-        </div>
-      </header>
+        </header>
+      </div>
+      <!-- Header -->
 
-      <!-- <hr> -->
-
-      <!-- Body -->
-      <div class="container body">
-        <div class="container col-md-12 col-sm-12 col-lg-12 col-12 about" id="about">
-          <div class="title">
-            <h1>About me</h1>
+      <!-- Portfolio Section -->
+      <div class="section row portfolio" id="portfolio">
+        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-12 col-12 portfolio-intro">
+          <div class="name h1">
+            <p class="portfolio-heading">Portfolio</p>
+            <p class="portfolio-more">Show more details</p>
           </div>
         </div>
       </div>
+      <!-- Portfolio Section -->
+
+      <!-- About Section -->
+      <div class="section row about-me" id="about-me">
+
+        <!-- Content Col -->
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 about-intro">
+          <div class="name">
+            <p class="about-heading">About Me</p>
+            <p class="about-more">Show more details</p>
+          </div>
+        </div>
+        <!-- Content Col -->
+
+        <!-- My Image -->
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 about-image">
+          <!-- <img src="assets/images/sample.jpeg" alt="MySelf"> -->
+        </div>
+        <!-- My Image -->
+      </div>
+      <!-- About Section -->
+
+      <div class="section row contact" id="contact">
+        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-12 col-12 contact-intro">
+          <div class="name h1">
+            <p class="contact-heading">Get In Touch</p>
+            <p class="contact-more">Show more details</p>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio Section -->
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"
+        integrity="sha256-caNcSA0LvOCX90PTuEbwl+V09xPMca13CJUasl+VCtk=" crossorigin="anonymous"></script>
+
+      <script>
+        new fullpage('#fullpage', {
+          autoScrolling: true
+        });
+      </script>
 
     </div>
+    <!-- Background -->
+
   </div>
+  <!-- page border -->
 
 </body>
 
