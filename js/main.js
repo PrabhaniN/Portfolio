@@ -35,6 +35,6 @@ function menuAnimation(e) {
   }
 }
 
-var fullPageScroller = new fullpage('#fullpage', {
-  autoScrolling: true
-});
+// var fullPageScroller = new fullpage('#fullpage', {
+  // autoScrolling: true
+// });

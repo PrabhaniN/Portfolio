@@ -7,12 +7,12 @@ html {
 }
 
 body, .cover, .cover-left, .row {
-  margin: 0 !important;
+  margin: 0 !important; 
   padding: 0 !important;
 }
 
 .page-border {
-  background: url("../assets/images/Slanted-Gradient.svg");
+  background: url('../assets/images/Slanted-Gradient.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -39,7 +39,6 @@ body, .cover, .cover-left, .row {
   border: 1px solid white;
   border-radius: 2em;
   cursor: pointer;
-  -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
   margin-top: 0.8em;
   z-index: 6;
@@ -60,6 +59,7 @@ body, .cover, .cover-left, .row {
 .show .toggle-icon {
   background-color: transparent;
   border: none;
+  /* right: 21%; */
 }
 
 .show .toggle-icon::before {
@@ -91,7 +91,6 @@ header {
   padding-top: 180px;
   border-right: white !important;
   background: rgba(3, 2, 42, 0.35);
-  -webkit-transition-property: 0.8s ease;
   transition-property: 0.8s ease;
   z-index: 1;
 }
@@ -109,7 +108,7 @@ header {
   line-height: 21px;
   z-index: 3;
 }
-
+ 
 .sideNav a.active {
   color: white;
   text-decoration: none;
@@ -141,10 +140,10 @@ header {
   font-size: 1.198vw;
   line-height: 27px;
   color: white;
-}
-
-#logo a {
-  color: inherit;
+ }
+ 
+#logo a { 
+  color: inherit; 
   text-decoration: none;
 }
 
@@ -164,7 +163,7 @@ header {
   top: 300px;
 }
 
-.name .freelance, .name .portfolio-more, .name .about-more, .name .contact-more {
+.name .freelance, .name .portfolio-more, .name .about-more, .name .contact-more{
   margin: 0;
   position: absolute;
   left: 200px;
@@ -200,12 +199,15 @@ header {
   header {
     height: 700px;
   }
+
   .toggle-icon, .toggle-icon::before, .toggle-icon::after {
     display: none;
   }
+
   .show .toggle-icon, .show .toggle-icon::before, .show .toggle-icon::after {
     display: none;
   }
+
   .sideNav {
     width: 100%;
     height: auto;
@@ -216,71 +218,89 @@ header {
     z-index: 5;
     background: rgba(3, 2, 42, 0.8);
   }
+
   .sideNav a {
     padding: 16px;
     margin-bottom: 10px;
     font-size: 2vw;
     display: inline-block;
-    margin-right: -4px;
-    /* inline-block gap fix */
+    margin-right: -4px;  /* inline-block gap fix */
     -webkit-transition: background 0.3s linear;
+    -moz-transition: background 0.3s linear;
+    -ms-transition: background 0.3s linear;
+    -o-transition: background 0.3s linear;
     transition: background 0.3s linear;
     z-index: 9;
   }
+
   .sideNav a:hover:not(.active) {
     font-size: 2.5vw;
     color: white;
     text-decoration: none;
   }
+
   #logo {
     font-size: 3vw;
     top: 80px;
     left: 30px;
   }
+
   .name .prabhani, .name .portfolio-heading, .name .about-heading, .name .contact-heading {
     font-size: 10vw;
     left: 120px;
   }
+
   .name .prabhani {
     top: 200px;
   }
+
   .name .freelance, .name .portfolio-more, .name .about-more, .name .contact-more {
     font-size: 3.3vw;
     left: 120px;
   }
+
   .name .freelance {
     top: 500px;
   }
+
   .name .portfolio-more, .name .about-more, .name .contact-more {
     top: 100px;
   }
+
 }
 
-@media screen and (max-width: 539px) {
+@media screen and (max-width: 539px){
   header {
     height: 700px;
   }
+
   .toggle-icon, .toggle-icon::before, .toggle-icon::after {
     display: block;
     opacity: 0.7;
     width: 20px;
     height: 2px;
   }
+
   .show .toggle-icon, .show .toggle-icon::before, .show .toggle-icon::after {
     display: block;
   }
+
   .sideNav.responsive {
-    position: relative;
+    position: relative; 
+    /* top: 73px; */
   }
+
   .sideNav {
     position: absolute;
     top: -30%;
   }
+
   .sideNav.responsive .icon {
     position: fixed;
     right: 0;
     top: 0;
   }
+
   .sideNav a, .sideNav.responsive a {
     float: none;
     display: block;
@@ -290,24 +310,28 @@ header {
     font-size: 2.5vw;
     font-weight: 400;
   }
+
   #logo {
     font-size: 3vw;
     top: 50px;
     left: 30px;
   }
+
   .name .prabhani, .name .portfolio-heading, .name .about-heading, .name .contact-heading {
     font-size: 10vw;
     left: 80px;
   }
+
   .name .prabhani {
     top: 180px;
   }
+
   .name .freelance, .name .portfolio-more, .name .about-more, .name .contact-more {
     font-size: 3.3vw;
     left: 80px;
   }
+
   .name .freelance {
     top: 500px;
   }
 }
-/*# sourceMappingURL=styles.css.map */
