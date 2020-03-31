@@ -12,23 +12,19 @@
   <meta name="description" content="Prabhani Nanayakkara">
 
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="scss/styles.css">
+  <link rel="stylesheet" href="css/main.css">
   <!-- Animations Stylesheet -->
-  <!-- <link rel="stylesheet" href="scss/animations.scss"> -->
+  <link rel="stylesheet" href="css/animations.css">
   <!-- Hover CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css" />
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=DM+Sans|Questrial&display=swap" rel="stylesheet">
 
   <!-- Bootstrap4 -->
 
   <!-- CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-  <!-- FullPageJs CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css"
-    integrity="sha256-+dIh4jG2jQTHZwW81yUo8h6tzXWcNumyNL5XPZbwp1E=" crossorigin="anonymous" />
 
   <!-- JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -43,7 +39,6 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
 
-
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
@@ -55,130 +50,84 @@
 </head>
 
 <body>
+  <!-- Page Content -->
+  <div class="page-content">
 
-  <!-- page border -->
-  <div class="page-border">
+    <!-- Nav Bar -->
+    <div class="navbar">
 
+      <!-- Brand -->
+      <a class="brand" href="">
+        <img src="assets/images/Group 1logo.png" alt="" class="logo">
+      </a>
+      <!-- Brand -->
 
-    <!-- <button class="toggle-collapse" id="toggle-btn" onclick="menuAnimation(this)"> -->
-    <div onclick="menuAnimation(this)" class="toggle-collapse">
+      <!-- Nav Menu -->
+      <div class="nav-menu">
 
-      <span class="toggle-icon"></span>
+          <!-- Nav Menu Content -->
+        <div class="nav-menu-content">
 
-    </div>
-    <!-- </button> -->
+          <!-- Nav Link Wrappers -->
+          <div class="nav-link-wrappers">
 
-    <!-- NAVIGATION BAR -->
-    <div class="sideNav" id="side_nav">
-      <a href="#home" class="list_item_home active">HOME</a>
-      <a href="#portfolio" class="list_item_portfolio">PORTFOLIO</a>
-      <a href="#about-me" class="list_item_about_me">ABOUT ME</a>
-      <a href="#contact" class="list_item_contact">CONTACT</a>
-    </div>
-    <!-- NAVIGATION BAR -->
+            <!-- Nav Link Wrap -->
+            <a class="nav-link-wrap" href="#">
+              <p class="menu-number">01</p>
+              <p class="text-block">Home</p>
+            </a>
+            <!-- Nav Link Wrap -->
 
-    <!-- prabhani.me -->
-    <div id="logo">
-      <a href="#home" title="Logo">prabhani.me</a>
-    </div>
-    <!-- prabhani.me -->
+            <!-- Nav Link Wrap -->
+            <a class="nav-link-wrap" href="#">
+              <p class="menu-number">02</p>
+              <p class="text-block">About</p>
+            </a>
+            <!-- Nav Link Wrap -->
 
-    <!-- Background -->
-    <div class="bg" id="fullpage">
+            <!-- Nav Link Wrap -->
+            <a class="nav-link-wrap" href="#">
+              <p class="menu-number">03</p>
+              <p class="text-block">Contact</p>
+            </a>
+            <!-- Nav Link Wrap -->
 
-      <!-- Header -->
-      <div class="section">
-        <header id="home">
+          </div>
+          <!-- Nav Link Wrappers -->
 
-          <!-- <hr class="solid divider"> -->
+          <!-- Nav Btn Wrappers -->
+          <div class="nav-btn-wrapper">
 
-          <!-- COVER -->
-          <div class="container-fluid col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 cover">
-
-            <!-- Cover Row -->
-            <div class="row">
-
-              <!-- Cover-Content -->
-              <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12 col-12 cover-left">
-
-                <!-- Intro-Name -->
-                <div class="name h1">
-                  <!-- <p class="hello">Hello,</p> -->
-                  <p class="prabhani">Prabhani <br>Nanayakkara</p>
-
-                  <p class="freelance">Freelance UX/UI Designer</p>
-                </div>
-                <!-- Intro-Name -->
-
+            <a class="close-overlay-btn" href="">
+          
+              <div class="close-icon">
+                <div class="cross-line1"></div>
+                <div class="cross-line2"></div>
               </div>
-              <!-- Cover-Content -->
-
-            </div>
-            <!-- Cover Row -->
-
+          
+              <p class="view-more-text">Close</p>
+          
+            </a>
+          
           </div>
-          <!-- COVER -->
 
-        </header>
-      </div>
-      <!-- Header -->
-
-      <!-- Portfolio Section -->
-      <div class="section row portfolio" id="portfolio">
-        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-12 col-12 portfolio-intro">
-          <div class="name h1">
-            <p class="portfolio-heading">Portfolio</p>
-            <p class="portfolio-more">Show more details</p>
-          </div>
         </div>
+        <!-- Nav Menu Content -->
+
       </div>
-      <!-- Portfolio Section -->
+      <!-- Nav Menu -->
 
-      <!-- About Section -->
-      <div class="section row about-me" id="about-me">
-
-        <!-- Content Col -->
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 about-intro">
-          <div class="name">
-            <p class="about-heading">About Me</p>
-            <p class="about-more">Show more details</p>
-          </div>
-        </div>
-        <!-- Content Col -->
-
-        <!-- My Image -->
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 about-image">
-          <!-- <img src="assets/images/sample.jpeg" alt="MySelf"> -->
-        </div>
-        <!-- My Image -->
+      <div class="menu-btn">
+        <img src="assets/images/menu(1).png" alt="" class="burger-icon">
       </div>
-      <!-- About Section -->
-
-      <div class="section row contact" id="contact">
-        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-12 col-12 contact-intro">
-          <div class="name h1">
-            <p class="contact-heading">Get In Touch</p>
-            <p class="contact-more">Show more details</p>
-          </div>
-        </div>
-      </div>
-      <!-- Portfolio Section -->
-
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"
-        integrity="sha256-caNcSA0LvOCX90PTuEbwl+V09xPMca13CJUasl+VCtk=" crossorigin="anonymous"></script>
-
-      <script>
-        new fullpage('#fullpage', {
-          autoScrolling: true
-        });
-      </script>
-
+    
     </div>
-    <!-- Background -->
+    <!-- Nav Bar -->
+
+    <!-- Hero Section -->
+    <div class="hero-sectoion"></div>
 
   </div>
-  <!-- page border -->
-
 </body>
 
 </html>

@@ -1,0 +1,371 @@
+html {
+  line-height: 1.6;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  text-align: left;
+  letter-spacing: normal;
+  background-color: black;
+}
+
+.page-content {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: auto;
+  overflow: visible;
+  position: static;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  text-align: left;
+  letter-spacing: normal;
+  background-color: transparent;
+}
+
+.nav-menu {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 0%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: auto;
+  z-index: 1;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  text-align: left;
+  letter-spacing: normal;
+  background-color: black;
+}
+
+.nav-menu-content {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  height: 100%;
+  width: auto;
+  overflow: visible;
+  position: static;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  text-align: left;
+  letter-spacing: normal;
+  background-color: transparent;
+}
+
+.nav-link-wrappers {
+  display: flexbox;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  margin: 0;
+  padding: 6% 0 0 10%;
+  width: 50%;
+  height: 100%;
+  overflow: visible;
+  position: static;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  text-align: left;
+  letter-spacing: normal;
+  background-color: transparent;
+}
+
+.nav-link-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 24px 0 24px 0;
+  margin: 0;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  position: static;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  text-align: left;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.menu-number {
+  margin: 0 24px 0 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  position: static;
+  font-family: 'Questrial', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: white;
+  text-align: left;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.text-block {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  position: static;
+  font-family: 'Questrial', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  text-align: left;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.nav-btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: start;
+  margin: 0;
+  padding: 2% 2% 0 0;
+  width: 50%;
+  height: 100%;
+  overflow: visible;
+  position: static;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  text-align: left;
+  letter-spacing: normal;
+  background-color: transparent;
+}
+
+.close-overlay-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: auto;
+  overflow: visible;
+  position: absolute;
+  top: 4%;
+  right: 2%;
+  bottom: auto;
+  left: auto;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  text-align: left;
+  letter-spacing: normal;
+  background-color: transparent;
+}
+
+.close-overlay-btn:hover {
+  text-decoration: none;
+}
+
+.close-icon {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 10px 0 0 10px;
+  width: 16px;
+  height: 32px;
+  overflow: visible;
+  position: static;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  text-align: left;
+  letter-spacing: normal;
+  background-color: transparent;
+}
+
+.cross-line1 {
+  width: 1px;
+  height: 10px;
+  overflow: visible;
+  position: absolute;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  text-align: left;
+  letter-spacing: normal;
+  background-color: white;
+  transform: rotateZ(45deg);
+}
+
+.cross-line2 {
+  width: 1px;
+  height: 10px;
+  overflow: visible;
+  position: absolute;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  text-align: left;
+  letter-spacing: normal;
+  background-color: white;
+  transform: rotateZ(135deg);
+}
+
+.view-more-text {
+  display: inline-block;
+  margin: 0;
+  padding: p;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  position: static;
+  font-family: 'Questrial', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: white;
+  text-align: left;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  position: relative;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #a1a1a1;
+  text-align: left;
+  letter-spacing: normal;
+  text-decoration: underline;
+  background-color: transparent;
+  flex-grow: 1;
+}
+
+.logo {
+  flex-shrink: 1;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  overflow: visible;
+  position: static;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #a1a1a1;
+  text-align: left;
+  letter-spacing: normal;
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+.menu-btn {
+  flex-shrink: 1;
+  margin: 0 -16px 0 0;
+  padding: 16px;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  position: relative;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  text-align: left;
+  letter-spacing: normal;
+  background-color: transparent;
+}
+
+.burger-icon {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  overflow: visible;
+  position: static;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  text-align: left;
+  letter-spacing: normal;
+  background-color: transparent;
+}
