@@ -1121,10 +1121,32 @@ body {
     line-height: 18px;
     letter-spacing: 0.2px;
   }
+  .arrow-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin: 0;
+    padding: 8px 0 8px 0;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    position: static;
+    float: none;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    text-align: left;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    background-color: transparent;
+  }  
   .arrow-btn-text {
     font-size: 12px;
     line-height: 18px;
-  }
+  }  
   .hero-right {
     width: 100%;
   }
