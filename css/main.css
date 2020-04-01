@@ -1203,3 +1203,37 @@ body {
     display: none;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .hero-title-wrapper {
+    left: 18%;
+  }
+  .hero-slide-title {
+    font-size: 60px;
+    line-height: 66px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .hero-title-wrapper {
+    width: 100%;
+    left: 10%;
+  }
+  .subtitle {
+    font-size: 3vw;
+    line-height: 4vw;
+  }
+  .hero-slide-title {
+    font-size: 12vw;
+    line-height: 13vw;
+  }
+  .hero-paragraph {
+    margin: 0 0 24px 4px;
+    max-width: 70vw;
+    font-size: 2.5vw;
+    line-height: 4vw;
+  }
+  .arrow-btn-text {
+    font-size: 2.5vw;
+    line-height: 3.5vw;
+  }
+}
