@@ -1153,12 +1153,15 @@ body {
   }
   .arrow-wrap {
     display: none;
+    visibility: hidden;
   }
   .arrow-icon {
     display: none;
+    visibility: hidden;
   }
   .arrow-extension {
     display: none;
+    visibility: hidden;
   }
   .mobile-arrow {
     display: block;
@@ -1271,12 +1274,15 @@ body {
   }
   .arrow-wrap {
     display: none;
+    visibility: hidden;
   }
   .arrow-icon {
     display: none;
+    visibility: hidden;
   }
   .arrow-extension {
     display: none;
+    visibility: hidden;
   }
   .mobile-arrow {
     display: block;
@@ -1327,12 +1333,15 @@ body {
   }
   .arrow-wrap {
     display: none;
+    visibility: hidden;
   }
   .arrow-icon {
     display: none;
+    visibility: hidden;
   }
   .arrow-extension {
     display: none;
+    visibility: hidden;
   }
   .mobile-arrow {
     display: block;
