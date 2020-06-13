@@ -13,12 +13,10 @@
 
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/main.css">
-  <!-- Animations Stylesheet -->
-  <link rel="stylesheet" href="css/animations.css">
   <!-- Hover CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css" />
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=DM+Sans|Questrial&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
   <!-- Bootstrap4 -->
 
@@ -45,180 +43,77 @@
   <!-- JS Main File -->
   <script type="text/javascript" src="js/main.js"></script>
 
+  <!-- NavBar -->
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
   <!-- TODO add favicon.ico -->
 
 </head>
 
 <body>
-  <!-- Page Content -->
-  <div class="page-content">
-
-    <!-- Nav Bar -->
-    <div class="navbar">
-
-      <!-- Brand -->
-      <a class="brand" href="">
-        <img src="assets/images/Group 1logo(1).png" alt="" class="logo">
-      </a>
-      <!-- Brand -->
-
-      <!-- Nav Menu -->
-      <div class="nav-menu" id="nav-menu">
-
-        <!-- Nav Menu Content -->
-        <div class="nav-menu-content">
-
-          <!-- Nav Link Wrappers -->
-          <div class="nav-link-wrappers">
-
-            <!-- Nav Link Wrap -->
-            <a class="nav-link-wrap" href="#">
-              <p class="menu-number">01</p>
-              <p class="text-block">Home</p>
-            </a>
-            <!-- Nav Link Wrap -->
-
-            <!-- Nav Link Wrap -->
-            <a class="nav-link-wrap" href="#">
-              <p class="menu-number">02</p>
-              <p class="text-block">About</p>
-            </a>
-            <!-- Nav Link Wrap -->
-
-            <!-- Nav Link Wrap -->
-            <a class="nav-link-wrap" href="#">
-              <p class="menu-number">03</p>
-              <p class="text-block">Contact</p>
-            </a>
-            <!-- Nav Link Wrap -->
-
-          </div>
-          <!-- Nav Link Wrappers -->
-
-          <!-- Nav Btn Wrappers -->
-          <div class="nav-btn-wrapper">
-
-            <a class="close-overlay-btn" href="" onclick="closeNav()">
-
-              <div class="close-icon">
-                <div class="cross-line1"></div>
-                <div class="cross-line2"></div>
-              </div>
-
-              <p class="view-more-text">Close</p>
-
-            </a>
-
-          </div>
-
+  <div class="bg">
+    <p class="domain-name">prabhani.me</p>
+    <div class="row content">
+      <div class="content1">
+        <img src="/assets/images/image.svg" alt="" class="image-icon">
+        <p class="heading">Prabhani Nanayakkara</p>
+        <p class="sub-topic">Freelance UI/UX Designer</p>
+        <div class="row icons-row">
+          <a href="https://www.facebook.com/prabhani.nanayakkara.5">
+            <img src="assets/images/facebook.svg" alt="" class="fb">
+          </a>
+          <a href="https://twitter.com/PrabhaniNanaya1">
+            <img src="assets/images/twitter.svg" alt="" class="twitter">
+          </a>
+          <a href="https://www.behance.net/prabhannanayak">
+            <img src="assets/images/behance.svg" alt="" class="behance">
+          </a>
+          <a href="https://dribbble.com/PrabhaniN">
+            <img src="assets/images/dribbble.svg" alt="" class="dribbble">
+          </a>
+          <a href="https://www.linkedin.com/in/prabhanin/">
+            <img src="assets/images/linkedin.svg" alt="" class="linkedin">
+          </a>
         </div>
-        <!-- Nav Menu Content -->
-
-      </div>
-      <!-- Nav Menu -->
-
-      <div class="menu-btn" onclick="openNav()">
-        <img src="assets/images/menu(1).png" alt="" class="burger-icon">
       </div>
 
+      <div class="content2">
+        <p class="profile">Profile</p>
+
+        <div class="row name-row">
+          <img src="assets/images/user.svg" alt="" class="user-icon">
+          <p class="name">Name</p>
+          <p class="dot1">:</p>
+          <p class="username">Prabhani Nanayakkara</p>
+        </div>
+
+        <div class="row address-row">
+          <img src="assets/images/pin.svg" alt="" class="address-icon">
+          <p class="address">Address</p>
+          <p class="dot2">:</p>
+          <p class="my-address">Colombo, Sri Lanka</p>
+        </div>
+
+        <div class="row phone-row">
+          <img src="assets/images/contact.svg" alt="" class="phone-icon">
+          <p class="phone">Phone</p>
+          <p class="dot3">:</p>
+          <p class="my-phone-no">+94 779 431 429</p>
+        </div>
+
+        <div class="row email-row">
+          <img src="assets/images/mail.svg" alt="" class="email-icon">
+          <p class="email">Email</p>
+          <p class="dot4">:</p>
+          <p class="my-email">mail@prabhani.me</p>
+        </div>
+
+        <a href="assets/Resume Dark- Prabhani Nanayakkara.pdf" download>
+          <img src="assets/images/btn.svg" alt="CV" class="btn">
+        </a>
+
+      </div>
     </div>
-    <!-- Nav Bar -->
-
-    <!-- Hero Section -->
-    <section class="hero-sectoion">
-
-      <!-- Her Slider -->
-      <div class="hero-slider">
-
-        <div class="mask">
-
-          <div class="slide1">
-
-            <div class="hero-left">
-
-              <div class="hero-title-wrapper">
-
-                <p class="subtitle">Freelance UX/UI Designer</p>
-
-                <div class="hero-title-wrap">
-                  <h1 class="hero-slide-title">Prabhani<br>Nanayakkara</h1>
-                </div>
-
-                <p class="hero-paragraph">Hey there! My name is Prabhani Nanayakkara and I'm a Freelance UX/UI Designer
-                  from Sri Lanka.</p>
-
-                <a href="" class="arrow-btn">
-
-                  <p class="arrow-btn-text">More about me</p>
-
-                  <div class="arrow-wrap">
-                    <img src="assets/images/arrow.png" alt="" class="arrow-icon">
-                    <div class="arrow-extension"></div>
-                  </div>
-                  <img src="assets/images/arrrow-right2.png" alt="" class="mobile-arrow">
-
-                </a>
-
-              </div>
-
-            </div>
-
-            <div class="hero-right"></div>
-
-          </div>
-
-          <div class="slide2"></div>
-
-          <div class="slide3"></div>
-
-        </div>
-
-        <a href="" class="left-arrow">
-          <div class="arrow-wrap1">
-            <img src="assets/images/arrow(1).png" alt="" class="arrow-icon1">
-            <div class="arrow-extension1"></div>
-          </div>
-          <img src="assets/images/arrow-left.png" alt="" class="mobile-arrow1">
-        </a>
-
-        <a href="" class="right-arrow">
-          <div class="arrow-wrap2">
-            <img src="assets/images/arrow(2).png" alt="" class="arrow-icon2">
-            <div class="arrow-extension2"></div>
-          </div>
-          <img src="assets/images/arrow-right.png" alt="" class="mobile-arrow2">
-        </a>
-
-        <a href="" class="slide-nav"></a>
-
-      </div>
-      <!-- Hero Slider -->
-
-      <!-- Social Block -->
-      <div class="social-block">
-        <p class="social-block-title">Follow me</p>
-        <div class="social-links">
-          <a href="" class="social-link">
-            <img src="assets/images/linkedin.png" alt="">
-          </a>
-          <a href="" class="social-link">
-            <img src="assets/images/dribbble.png" alt="">
-          </a>
-          <a href="" class="social-link">
-            <img src="assets/images/behance.png" alt="">
-          </a>
-          <a href="" class="social-link">
-            <img src="assets/images/facebook.png" alt="">
-          </a>
-          <a href="" class="social-link">
-            <img src="assets/images/twitter.png" alt="">
-          </a>
-        </div>
-      </div>
-      <!-- Social Block -->
-    </section>
-    <!-- Hero Section -->
-
   </div>
 </body>
 

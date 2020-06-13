@@ -1,6 +1,0 @@
-.nav-link-wrap:hover {
-  text-decoration: none;
-  transform: translate(20px, 0);
-  transition: transform 600ms;
-  transition-timing-function: cubic-bezier(.23, 1, .32, 1);
-}
