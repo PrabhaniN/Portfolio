@@ -10,8 +10,8 @@ body {
   padding: 0 !important;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.7vw;
+  line-height: 1vw;
   color: white;
   text-align: left;
   letter-spacing: normal;
@@ -28,15 +28,13 @@ body {
 
 .domain-name {
   position: absolute;
-  width: 230px;
-  height: 53px;
   left: 6%;
   top: 30px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 35px;
-  line-height: 52px;
+  font-size: 1.8vw;
+  line-height: 2.7vw;
   color: #CF075B;
 }
 
@@ -48,645 +46,739 @@ body {
 .content1 {
   padding: 0 !important;
   margin: 0 !important;
-  position: absolute;
-  width: 608px;
-  height: 787px;
-  left: 15%;
-  top: 113px;
+  align-content: center;
+}
+
+.content1-bg {
+  position: relative;
+  width: 66.66%;
+  height: 780px;
+  left: 25%;
+  top: 16.66%;
   background: #242424;
   border-radius: 20px;
+  text-align: center;
 }
 
 .image-icon {
-  position: absolute;
-  width: 450px;
-  height: 450px;
-  left: 79px;
+  position: relative;
+  width: 70%;
+  height: auto;
   top: 48px;
 }
 
 .heading {
-  position: absolute;
-  align-content: center;
-  width: 550px;
-  height: 68px;
-  left: 32px;
-  top: 536px;
+  position: relative;
+  top: 60px;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  font-size: 45px;
-  line-height: 67px;
+  font-size: 2.3vw;
+  line-height: 3.5vw;
   color: #FFFFFF;
 }
 
 .sub-topic {
-  position: absolute;
-  width: 400px;
-  height: 45px;
-  left: 109px;
-  top: 603px;
+  position: relative;
+  top: 50px;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
-  line-height: 45px;
+  font-size: 1.6vw;
+  line-height: 2.3vw;
   color: #CF075B;
 }
 
-.fb {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  left: 139px;
-  top: 672px;
+.icons-table {
+  position: relative;
+  margin: auto;
+  padding: auto;
+  top: 70px;
 }
 
-.twitter {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  left: 209px;
-  top: 672px;
+.icon-row {
+  width: 70px;
 }
 
-.behance {
-  position: absolute;
-  width: 50px;
+.icon {
   height: 50px;
-  left: 279px;
-  top: 672px;
-}
-
-.dribbble {
-  position: absolute;
   width: 50px;
-  height: 50px;
-  left: 349px;
-  top: 672px;
-}
-
-.linkedin {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  left: 419px;
-  top: 672px;
 }
 
 .content2 {
-  position: absolute;
-  width: 608px;
+  padding: 0 !important;
+  margin: 0 !important;
+  align-content: center;
+}
+
+.content2-bg {
+  position: relative;
+  width: 66.66%;
   height: 500px;
-  right: 15%;
-  top: 262px;
+  left: 8.33%;
+  top: 33.33%;
   background: #242424;
   border-radius: 20px;
+  text-align: center;
 }
 
 .profile {
   position: absolute;
-  width: 147px;
-  height: 68px;
-  left: 54px;
-  top: 30px;
+  left: 60px;
+  top: 50px;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  font-size: 45px;
-  line-height: 67px;
+  font-size: 2.3vw;
+  line-height: 3.5vw;
   color: #FFFFFF;
 }
 
-.user-icon {
-  position: absolute;
-  width: 32px;
-  height: 32px;
-  left: 43px;
+.details-table {
+  position: relative;
+  margin: auto;
+  padding: auto;
   top: 150px;
 }
 
-.name {
-  position: absolute;
-  width: 100px;
-  height: 36px;
-  left: 95px;
-  top: 148px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 36px;
-  color: #FFFFFF;
+.col2-tb-row {
+  height: 50px;
 }
 
-.dot1 {
-  position: absolute;
-  width: 20px;
-  height: 36px;
-  left: 220px;
-  top: 148px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 36px;
-  text-align: center;
-  color: #FFFFFF;
+.icon-row-col2 {
+  width: 50px;
 }
 
-.username {
-  position: absolute;
-  width: 300px;
-  height: 36px;
-  left: 265px;
-  top: 148px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 36px;
-  color: #FFFFFF;
-}
-
-.address-icon {
-  position: absolute;
+.col2-icon {
+  text-align: left;
   width: 32px;
   height: 32px;
-  left: 43px;
-  top: 210px;
 }
 
-.address {
-  position: absolute;
-  width: 100px;
-  height: 36px;
-  left: 95px;
-  top: 208px;
+.heading-col {
+  text-align: left;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 1.25vw;
+  line-height: 1.875vw;
   color: #FFFFFF;
+  width: 130px;
 }
 
-.dot2 {
-  position: absolute;
-  width: 20px;
-  height: 36px;
-  left: 220px;
-  top: 208px;
+.dot {
+  text-align: left;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 1.25vw;
+  line-height: 1.875vw;
   text-align: center;
   color: #FFFFFF;
+  width: 35px;
 }
 
-.my-address {
-  position: absolute;
-  width: 300px;
-  height: 36px;
-  left: 265px;
-  top: 208px;
+.content-row {
+  text-align: left;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 1.25vw;
+  line-height: 1.875vw;
   color: #FFFFFF;
-}
-
-.phone-icon {
-  position: absolute;
-  width: 32px;
-  height: 32px;
-  left: 43px;
-  top: 270px;
-}
-
-.phone {
-  position: absolute;
-  width: 100px;
-  height: 36px;
-  left: 95px;
-  top: 268px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 36px;
-  color: #FFFFFF;
-}
-
-.dot3 {
-  position: absolute;
-  width: 20px;
-  height: 36px;
-  left: 220px;
-  top: 268px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 36px;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-.my-phone-no {
-  position: absolute;
-  width: 300px;
-  height: 36px;
-  left: 265px;
-  top: 268px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 36px;
-  color: #FFFFFF;
-}
-
-.email-icon {
-  position: absolute;
-  width: 32px;
-  height: 32px;
-  left: 43px;
-  top: 330px;
-}
-
-.email {
-  position: absolute;
-  width: 100px;
-  height: 36px;
-  left: 95px;
-  top: 328px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 36px;
-  color: #FFFFFF;
-}
-
-.dot4 {
-  position: absolute;
-  width: 20px;
-  height: 36px;
-  left: 220px;
-  top: 327px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 36px;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-.my-email {
-  position: absolute;
-  width: 300px;
-  height: 36px;
-  left: 265px;
-  top: 327px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 36px;
-  color: #FFFFFF;
+  width: max-content;
 }
 
 .btn {
-  position: absolute;
+  position: relative;
   width: 300px;
   height: 66px;
-  left: 154px;
-  top: 404px;
+  top: 180px;
 }
 
-/* @media only screen and (max-width: 991px) {} */
-
-/* @media only screen and (max-width: 767px) {} */
-
-@media only screen and (max-width: 479px) {
-  body {
-    background-image: url('/assets/images/Rectangle\ 5.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+@media only screen and (max-width: 1199px) {
   .domain-name {
     position: absolute;
-    width: 118px;
-    height: 27px;
-    left: 40px;
+    left: 5%;
     top: 50px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    color: #CF075B
+    font-size: 2vw;
+    line-height: 3vw;
+    color: #CF075B;
   }
   .content1 {
     padding: 0 !important;
     margin: 0 !important;
-    position: absolute;
-    width: 73%;
-    height: 388.82px;
-    left: 13.5%;
-    top: 102px;
+    align-content: center;
+  }
+  .content1-bg {
+    position: relative;
+    width: 83.33%;
+    height: 685px;
+    left: 11.66%;
+    top: 20%;
     background: #242424;
     border-radius: 20px;
+    text-align: center;
   }
   .image-icon {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    left: 50px;
-    top: 26px;
+    position: relative;
+    width: 70%;
+    height: auto;
+    top: 70px;
   }
   .heading {
-    position: absolute;
-    width: 270px;
-    height: 33px;
-    left: 21px;
-    top: 241px;
+    position: relative;
+    top: 100px;
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
-    line-height: 33px;
+    font-size: 2.9vw;
+    line-height: 4.4vw;
     color: #FFFFFF;
   }
   .sub-topic {
-    position: absolute;
-    width: 208px;
-    height: 24px;
-    left: 46px;
-    top: 279px;
+    position: relative;
+    top: 90px;
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 2vw;
+    line-height: 3vw;
     color: #CF075B;
   }
-  .fb {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 60px;
-    top: 328px;
+  .icons-table {
+    position: relative;
+    margin: auto;
+    padding: auto;
+    top: 110px;
   }
-  .twitter {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 99px;
-    top: 328px;
+  .icon-row {
+    width: 60px;
   }
-  .behance {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 138px;
-    top: 328px;
-  }
-  .dribbble {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 177px;
-    top: 328px;
-  }
-  .linkedin {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 216px;
-    top: 328px;
+  .icon {
+    height: 42px;
+    width: 42px;
   }
   .content2 {
-    position: absolute;
-    width: 73%;
-    height: 246.71px;
-    left: 13.5%;
-    top: 63%;
+    padding: 0 !important;
+    margin: 0 !important;
+    align-content: center;
+  }
+  .content2-bg {
+    position: relative;
+    width: 83.33%;
+    height: 400px;
+    left: 5%;
+    top: 33.33%;
     background: #242424;
     border-radius: 20px;
+    text-align: center;
   }
   .profile {
-    position: absolute;
-    width: 72px;
-    height: 33px;
-    left: 18px;
-    top: 25px;
+    position: relative;
+    left: 40px;
+    top: 30px;
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
-    line-height: 33px;
+    font-size: 2.9vw;
+    line-height: 4.4vw;
     color: #FFFFFF;
+    text-align: left;
   }
-  .user-icon {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 18px;
-    top: 78px;
+  .details-table {
+    position: relative;
+    margin: auto;
+    padding: auto;
+    top: 30px;
   }
-  .name {
-    position: absolute;
-    width: 55px;
-    height: 20px;
-    left: 48px;
-    top: 78px;
+  .col2-tb-row {
+    height: 45px;
+  }
+  .icon-row-col2 {
+    width: 35px;
+  }
+  .col2-icon {
+    text-align: left;
+    width: 24px;
+    height: 24px;
+  }
+  .heading-col {
+    text-align: left;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 13px;
-    line-height: 19px;
-    color: #FFFFFF
+    font-size: 1.6vw;
+    line-height: 2.4vw;
+    color: #FFFFFF;
+    width: 100px;
   }
-  .dot1 {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 108px;
-    top: 78px;
+  .dot {
+    text-align: left;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 13px;
-    line-height: 19px;
+    font-size: 1.6vw;
+    line-height: 2.4vw;
     text-align: center;
     color: #FFFFFF;
+    width: 35px;
   }
-  .username {
-    position: absolute;
-    width: 150px;
-    height: 20px;
-    left: 133px;
-    top: 78px;
+  .content-row {
+    text-align: left;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 13px;
-    line-height: 19px;
+    font-size: 1.6vw;
+    line-height: 2.4vw;
     color: #FFFFFF;
-  }
-  .address-icon {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 18px;
-    top: 103px;
-  }
-  .address {
-    position: absolute;
-    width: 55px;
-    height: 20px;
-    left: 48px;
-    top: 103px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 19px;
-    color: #FFFFFF;
-  }
-  .dot2 {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 108px;
-    top: 103px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 19px;
-    text-align: center;
-    color: #FFFFFF
-  }
-  .my-address {
-    position: absolute;
-    width: 150px;
-    height: 20px;
-    left: 133px;
-    top: 103px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 19px;
-    color: #FFFFFF;
-  }
-  .phone-icon {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 18px;
-    top: 128px;
-  }
-  .phone {
-    position: absolute;
-    width: 55px;
-    height: 20px;
-    left: 48px;
-    top: 128px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 19px;
-    color: #FFFFFF;
-  }
-  .dot3 {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 108px;
-    top: 128px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 19px;
-    text-align: center;
-    color: #FFFFFF;
-  }
-  .my-phone-no {
-    position: absolute;
-    width: 150px;
-    height: 20px;
-    left: 133px;
-    top: 128px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 19px;
-    color: #FFFFFF
-  }
-  .email-icon {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 18px;
-    top: 153px;
-  }
-  .email {
-    position: absolute;
-    width: 55px;
-    height: 20px;
-    left: 48px;
-    top: 153px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 19px;
-    color: #FFFFFF;
-  }
-  .dot4 {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 108px;
-    top: 153px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 19px;
-    text-align: center;
-    color: #FFFFFF;
-  }
-  .my-email {
-    position: absolute;
-    width: 150px;
-    height: 20px;
-    left: 133px;
-    top: 153px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 19px;
-    color: #FFFFFF;
+    width: max-content;
   }
   .btn {
+    position: relative;
+    width: 270px;
+    height: 63px;
+    top: 55px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .domain-name {
     position: absolute;
-    width: 150px;
-    height: 33px;
-    left: 76px;
-    top: 188px;
+    left: 3%;
+    top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5vw;
+    line-height: 3.7vw;
+    color: #CF075B;
+  }
+  .content1 {
+    padding: 0 !important;
+    margin: 0 !important;
+    align-content: center;
+  }
+  .content1-bg {
+    position: relative;
+    width: 83.33%;
+    height: 520px;
+    left: 11.66%;
+    top: 16.66%;
+    background: #242424;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .image-icon {
+    position: relative;
+    width: 70%;
+    height: auto;
+    top: 40px;
+  }
+  .heading {
+    position: relative;
+    top: 60px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.8vw;
+    line-height: 4.2vw;
+    color: #FFFFFF;
+  }
+  .sub-topic {
+    position: relative;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.1vw;
+    line-height: 3.1vw;
+    color: #CF075B;
+  }
+  .icons-table {
+    position: relative;
+    margin: auto;
+    padding: auto;
+    top: 50px;
+  }
+  .icon-row {
+    width: 50px;
+  }
+  .icon {
+    height: 38px;
+    width: 38px;
+  }
+  .content2 {
+    padding: 0 !important;
+    margin: 0 !important;
+    align-content: center;
+  }
+  .content2-bg {
+    position: relative;
+    width: 83.33%;
+    height: 320px;
+    left: 5%;
+    top: 33.33%;
+    background: #242424;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .profile {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.8vw;
+    line-height: 4.2vw;
+    color: #FFFFFF;
+    text-align: left;
+  }
+  .details-table {
+    position: relative;
+    margin: auto;
+    padding: auto;
+    top: 25px;
+  }
+  .col2-tb-row {
+    height: 35px;
+  }
+  .icon-row-col2 {
+    width: 35px;
+  }
+  .col2-icon {
+    text-align: left;
+    width: 24px;
+    height: 24px;
+  }
+  .heading-col {
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8vw;
+    line-height: 2.7vw;
+    color: #FFFFFF;
+    width: 70px;
+  }
+  .dot {
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8vw;
+    line-height: 2.7vw;
+    text-align: center;
+    color: #FFFFFF;
+    width: 35px;
+  }
+  .content-row {
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8vw;
+    line-height: 2.7vw;
+    color: #FFFFFF;
+    width: max-content;
+  }
+  .btn {
+    position: relative;
+    width: 250px;
+    height: 50px;
+    top: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .domain-name {
+    position: absolute;
+    left: 6%;
+    top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.56vw;
+    line-height: 6.8vw;
+    color: #CF075B;
+  }
+  .content1 {
+    padding: 0 !important;
+    margin: 0 !important;
+    align-content: center;
+  }
+  .content1-bg {
+    position: relative;
+    width: 66.66%;
+    height: 640px;
+    left: 16.66%;
+    top: 16.66%;
+    background: #242424;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .image-icon {
+    position: relative;
+    width: 70%;
+    height: auto;
+    top: 58px;
+  }
+  .heading {
+    position: relative;
+    top: 60px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.8vw;
+    line-height: 7.4vw;
+    color: #FFFFFF;
+  }
+  .sub-topic {
+    position: relative;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3vw;
+    line-height: 4.4vw;
+    color: #CF075B;
+  }
+  .icons-table {
+    position: relative;
+    margin: auto;
+    padding: auto;
+    top: 60px;
+  }
+  .icon-row {
+    width: 60px;
+  }
+  .icon {
+    height: 40px;
+    width: 40px;
+  }
+  .content2 {
+    padding: 0 !important;
+    margin: 0 !important;
+    align-content: center;
+  }
+  .content2-bg {
+    position: relative;
+    width: 66.66%;
+    height: 450px;
+    left: 16.66%;
+    top: 33.33%;
+    bottom: 80px;
+    background: #242424;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .profile {
+    position: relative;
+    left: 60px;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.8vw;
+    line-height: 7.4vw;
+    color: #FFFFFF;
+    text-align: left;
+  }
+  .details-table {
+    position: relative;
+    margin: auto;
+    padding: auto;
+    top: 60px;
+  }
+  .col2-tb-row {
+    height: 50px;
+  }
+  .icon-row-col2 {
+    width: 50px;
+  }
+  .col2-icon {
+    text-align: left;
+    width: 28px;
+    height: 28px;
+  }
+  .heading-col {
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.3vw;
+    line-height: 3.5vw;
+    color: #FFFFFF;
+    width: 85px;
+  }
+  .dot {
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.3vw;
+    line-height: 3.5vw;
+    text-align: center;
+    color: #FFFFFF;
+    width: 35px;
+  }
+  .content-row {
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.3vw;
+    line-height: 3.5vw;
+    color: #FFFFFF;
+    width: max-content;
+  }
+  .btn {
+    position: relative;
+    width: 270px;
+    height: 63px;
+    top: 80px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .domain-name {
+    position: absolute;
+    left: 35px;
+    top: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.76vw;
+    line-height: 5.6vw;
+    color: #CF075B;
+  }
+  .content1 {
+    padding: 0 !important;
+    margin: 0 !important;
+    align-content: center;
+  }
+  .content1-bg {
+    position: relative;
+    width: 83.33%;
+    height: 470px;
+    top: 16.66%;
+    left: 8.33%;
+    background: #242424;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .image-icon {
+    width: 70%;
+    height: auto;
+    top: 30px;
+  }
+  .heading {
+    top: 45px;
+    font-size: 4.6vw;
+    line-height: 6.9vw;
+  }
+  .sub-topic {
+    position: relative;
+    top: 35px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.34vw;
+    line-height: 5vw;
+    color: #CF075B;
+  }
+  .icons-table {
+    position: relative;
+    margin: auto;
+    padding: auto;
+    top: 35px;
+  }
+  .icon-row {
+    width: 40px;
+  }
+  .icon {
+    height: 24px;
+    width: 24px;
+  }
+  .content2 {
+    padding: 0 !important;
+    margin: 0 !important;
+    align-content: center;
+  }
+  .content2-bg {
+    position: relative;
+    width: 83.33%;
+    height: 280px;
+    left: 8.33%;
+    top: 40%;
+    background: #242424;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .profile {
+    text-align: left;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    font-size: 4.6vw;
+    line-height: 6.9vw;
+  }
+  .details-table {
+    position: relative;
+    margin: auto;
+    padding: auto;
+    top: 20px;
+  }
+  .col2-tb-row {
+    height: 30px;
+  }
+  .icon-row-col2 {
+    width: 30px;
+  }
+  .col2-icon {
+    text-align: left;
+    width: 20px;
+    height: 20px;
+  }
+  .heading-col {
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.7vw;
+    line-height: 3.97vw;
+    color: #FFFFFF;
+    width: 50px;
+  }
+  .dot {
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.7vw;
+    line-height: 3.97vw;
+    text-align: center;
+    color: #FFFFFF;
+    width: 15px;
+  }
+  .content-row {
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.7vw;
+    line-height: 3.97vw;
+    color: #FFFFFF;
+    width: max-content;
+  }
+  .btn {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    top: 30px;
   }
 }
